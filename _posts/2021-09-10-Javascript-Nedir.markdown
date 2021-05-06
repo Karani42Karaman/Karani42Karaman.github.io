@@ -1,13 +1,38 @@
 ---
 layout: post
-title: Javascript Nedir
+title: Javascript Nedir ?
 date: 2017-09-10 00:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: js-1.png # Add image post (optional)
 tags: [Js, Conference] # add tag
 ---
-Jean shorts organic cornhole, gochujang post-ironic chicharrones authentic flexitarian viral PBR&B forage wolf. Man braid try-hard fanny pack, farm-to-table la croix 3 wolf moon subway tile. Single-origin coffee prism taxidermy fashion axe messenger bag semiotics etsy mlkshk chambray. Marfa lumbersexual meditation celiac. Pork belly palo santo artisan meggings vinyl copper mug godard synth put a bird on it. Cloud bread pop-up quinoa, raw denim meditation 8-bit slow-carb. Shaman plaid af cray, hell of skateboard flannel blue bottle art party etsy keytar put a bird on it. Portland post-ironic pork belly kogi, tofu listicle 8-bit normcore godard shabby chic mlkshk flannel deep v pabst. Pork belly kinfolk fingerstache lo-fi raclette. Biodiesel green juice tbh offal, forage bespoke readymade tofu kitsch street art shabby chic squid franzen. Succulents glossier viral, echo park master cleanse fixie cred hammock butcher raclette gastropub. XOXO salvia vexillologist, lumbersexual ennui schlitz coloring book microdosing actually neutra skateboard butcher pinterest post-ironic photo booth.
 
-Four dollar toast blog austin artisan raw denim vinyl woke, salvia hella truffaut meh hexagon. Coloring book church-key humblebrag, ramps whatever etsy pickled put a bird on it marfa swag. Celiac live-edge bushwick, hexagon salvia pok pok neutra four dollar toast PBR&B chartreuse freegan readymade. Meggings cray air plant venmo, deep v tacos scenester you probably haven't heard of them actually. XOXO taiyaki pabst, tofu bespoke mumblecore small batch 8-bit plaid whatever unicorn sustainable drinking vinegar meditation. Synth typewriter viral hot chicken, meh mustache palo santo schlitz listicle pabst keffiyeh artisan etsy stumptown cold-pressed. Occupy locavore cray irony. Chambray whatever vaporware keffiyeh heirloom vice. Single-origin coffee neutra iPhone lyft. Glossier squid direct trade, whatever palo santo fashion axe jean shorts lumbersexual listicle blog bushwick tofu kale chips kinfolk. Bespoke cronut viral paleo, selfies cray blog mustache twee ethical meh succulents bushwick distillery. Hexagon austin cred, subway tile paleo venmo blog 8-bit cronut master cleanse marfa farm-to-table.
+JavaScript, web sayfalarına canlılık ve dinamiklik getirmek için oluşturulmuş bir betik dildir. 
+HTML koduna gömülü ya da dahili olarak yazılıp sayfa yüklendiğinde doğrudan çalıştırılabilir. Dolayısıyla kodlar herhangi bir derleyiciye ihtiyaç duymadan çalışabilir. 
+Bunları ele aldığımızda JavaScript diğer dillere kıyasen oldukça farklıdır.
 
-Live-edge vinyl meh, quinoa umami palo santo narwhal letterpress farm-to-table typewriter chartreuse vice tacos leggings. Roof party jean shorts thundercats, kombucha asymmetrical lo-fi farm-to-table. Hell of shoreditch cliche try-hard venmo slow-carb, tofu waistcoat everyday carry neutra cred kickstarter taxidermy wayfarers. Direct trade banh mi pug skateboard banjo edison bulb. Intelligentsia cliche quinoa synth umami. Trust fund four loko hoodie paleo cray tote bag slow-carb ennui. Williamsburg food truck intelligentsia trust fund. Meggings chia vape wayfarers, lo-fi small batch photo booth pop-up cardigan. Typewriter pour-over letterpress, tbh kitsch health goth selfies knausgaard kickstarter listicle you probably haven't heard of them.
+## JavaScript'in Tarihçesi
+
+İlk olarak 1995 yılında NetScape Şirketinde çalışan Brendan Eich tarafından yazılmıştır. 
+JavaScript ilk başta "LiveScript" adıyla yazılmıştır. Fakat Java dili o zamanlarda çok fazla gündemde olmasından dolayı yeni bir dil ve "küçük kardeş" olarak görüldüğünden dolayı adını JavaScript olarak almıştır.
+Fakat bu olay kötü sonuçlar doğurmuştur;
+Java o zamanlarda çok popüler ve güçlü bir dil olduğundan dolayı kullanıcılar JavaScript'i Java dilinin daha basit ve yararsız bir alt dili olarak algılamıştır. Bu algının etkileri günümüzde bile halen etkisini göstermektedir.
+JavaScript'in geliştirilmesi günümüzde NetScape veya günümüz adıyla Mozilla tarafından yapılmaktadır.
+
+## JavaScript'i Eşsiz Kılan Nedir?
+
+JavaScript'i eşsiz kılan 3 temel neden vardır;
+
+    •    HTML/CSS ile beraber çalışması,
+
+    •    En çok bilinen tüm tarayıcılarda ön tanımlı olarak gelip sorunsuz şekilde çalışması,
+
+    •    Kolay işleri kolay bir şekilde yapabilmeyi sağlamasıdır.
+
+Bu özelliklerin hepsini içinde barındıran başka hiçbir tarayıcı teknolojisi yoktur.
+Bu yüzden JavaScript en çok kullanılan tarayıcı teknolojisidir ve onu eşsiz kılan da budur, günümüzde hemen hemen bütün tarayıcıların altyapısında da JavaScript çalışır.
+
+## Özet Olarak
+İlk başta sadece ağ tarayıcılarında çalışmak üzere tasarlanmış bir dil olsa da günümüzde birçok yerde(client-side ve native mobil uygulamalar gibi) çalışabilir.
+HTML ve CSS ile kusursuz uyumluluğundan dolayı dengi yoktur.
+Her ne kadar ilk başta Java dilinin yeteneksiz bir alt dili olarak görülse de günümüzde çok gelişmiş bir programlama dilidir ve Java ile alakası yoktur.
