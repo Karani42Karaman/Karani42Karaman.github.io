@@ -1,0 +1,12 @@
+I"^<p>Neden Kubernetes yada neden bir container orchestrator kullanıyoruz ?</p>
+
+<p>Kendimce bu soruyu 2 seçenek ile cevaplıyorum;</p>
+
+<p>1 ) Cluster Manager : Bizim makine bütünümüz var yani 1000 core luk bir makine halinde değil 8/10/12 vb gibi parçalar halinde, biz uygulamaları bunların üzerinde çalıştırırken uygulamaların nerede çalışacağına da karar vermek istemiyoruz. Bu durumlardan dolayı bütün container orchestratorlar birer cluster manager rolünde. Bunların üzerine bir agent kuruyoruz ve bize uygulamayı yönetme imkanı veriyor. Bizim 20 tane 10 core luk makinemiz varsa ben onları 200 core şeklinde bir bütün olarak görüyorum.</p>
+
+<p><img src="/assets/img/kübe2.jpg" alt="kübe2" /></p>
+
+<p>2) Container Orchestrator or Scheduler : Containerları kurduk, 5 tane container çalıştıracağım, bunları aynı VM ler üzerinde değil de farklı VM lerde çalıştrımak istiyorum (best practice) gibi mantıksal tercihlerin yapılması ve aynı zamanda bir önceki maddede belirttiğim makine bütününde kullanılan/kalan core hesaplarının yapılması gibi işlemler içinde pencerenin bütününü gören bir mekanizmaya ihtiyacımız var bu noktada bir container orchestrator ihtiyacımız doğuyor.</p>
+<h3 id="man-bun-umami-keytar">Man bun umami keytar</h3>
+<p><img src="/assets/img/kübe3.jpg" alt="kübe3" /></p>
+:ET
