@@ -1,14 +1,20 @@
-let myAudio = new Audio("./js/kırpaptyası.mp3"); // Create an Audio object with the file 'Ceylon.mp3'
+window.addEventListener("DOMContentLoaded", () => {
+    const audio = new Audio("./js/kırpaptyası.mp3"); // kendi müzik dosyana göre yolu değiştir
+    audio.loop = true;
+    audio.volume = 0.5;
 
+    // Otomatik başlatmayı dene
+    const playAudio = () => {
+        audio.play().catch((e) => {
+            console.warn("Tarayıcı otomatik oynatmaya izin vermedi.");
+        });
+    };
 
+    // Hemen dene
+    playAudio();
 
-document.addEventListener("DOMContentLoaded", function() {
-    setInterval(GameLoop, 1000 / 10); // Start the game loop when the window is loaded
-    
+    // Eğer engellenirse, kullanıcı tıkladığında başlat
+    document.body.addEventListener("click", () => {
+        playAudio();
+    }, { once: true });
 });
-
-function GameLoop() {
-    //if (myAudio.paused) { // Check if the audio is paused
-        myAudio.play(); // If paused, play the audio
-   // }
-}
